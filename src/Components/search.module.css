@@ -1,0 +1,103 @@
+.container {
+    width: 28%;
+    height: 12%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #545b69;
+    box-shadow: 5px 8px #000;
+    margin-top: 3rem;
+}
+
+.search {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .2rem;
+}
+
+.search button {
+    padding: .5rem .7rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #1f96ff;
+    color: #fff;
+    transition: 0.1s ease;
+}
+
+.search button:hover {
+    padding: .6rem .8rem;
+    background-color: #0077df;
+}
+
+.input {
+    width: 80%;
+    height: 65%;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    text-indent: .5rem;
+    font-size: 70%;
+    background-color: #323645;
+    color: #fff;
+}
+
+.input:focus + .placeholder {
+    top: -7px;
+}
+
+.input:focus {
+    border: 2px solid #4c6f95;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .container {
+        width: 70%;
+    }
+
+    .search button {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .container {
+        width: 60%;
+    }
+
+    .search button {
+        padding: .4rem .6rem;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .container {
+        width: 40%;
+    }
+
+    .search button {
+        padding: .4rem .6rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .container {
+        width: 35%;
+    }
+
+    .input {
+        font-size: 80%;
+        text-indent: 1rem;
+    }
+
+    .search button {
+        padding: .7rem .9rem;
+    }
+}
