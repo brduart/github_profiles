@@ -12,6 +12,10 @@ Uma solução rápida e fácil para encontrar informações sobre usuários do G
 
 **Back-end:** Api do Github
 
+##
+O projeto ainda precisa de algumas melhorias que serão feitas posteriormente.
+
+
 ## Documentação de cores
 
 | Cor               | Hexadecimal                                                |
