@@ -29,6 +29,7 @@ Uma solução rápida e fácil para encontrar informações sobre usuários do G
 - Integração com a API do Github
 - Link direto para o perfil selecionado
 - Responsividade
+- Background animado
 
 
 ## Screenshots
